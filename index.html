@@ -1,40 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex</title>
-    <style>
-        html{
-            background-color:black;
-        }
-        h1{
-            color:white;
-            font-family:Quicksand;
-            text-align:center;
 
-        }
-        h2{
-            color:pink;
-            text-align:Left;
-        }
-        
-        p{
-            color:white;
-            font-family:Quicksand;
-            text-align:left;
-        }
-        img{
-            width:100px;
-            height:100px
-            
-        }
-        .div1{
-            text-align:left;
-           
-        }
-    </style>
+    <!-- Css stylesheet refrence to import code-->
+    <link rel="stylesheet" href="./stylesheet/stylesheet.css" />
 
+<!-- Importation of google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -42,15 +17,38 @@
 </head>
 <body>
     <h1>Alex's personal blog</h1>
-    <p>Welcome to my personal page!</p>
+    <p id="intro">Welcome to my personal page!</p>
     <hr/>
     <h2>Content</h2>
-    <div id="div1">
+    <a href="secondpage/secondpage.html" alt="second page, gallery"><p>Click here to view my gallery</p></a>
+    <!--First div containing 1 photo with link-->
+    <div class="div1">
         <p>Welcome package!</p>
-        <a href="https://skitscape.gumroad.com/l/beoflu"><img src="./images/pic1.jpg" alt="Photo cover"/></a>
-        <p>Click <a href="https://skitscape.gumroad.com/l/beoflu">here</a> to buy my welcome bundle with 4 exclusive photos! </p>
+        <a href="https://skitscape.gumroad.com/l/beoflu"><img id="img1" src="./images/pic1.jpg" alt="Photo cover"/></a>
+        <p>Click <a href="https://skitscape.gumroad.com/l/beoflu">here</a> to buy my welcome bundle with 4 exclusive photos! </p> 
 
+    </div>
+    <!--Second div containing another photo-->
+    <div class="div2">
+        <!--<p>Welcome package!</p>-->
+        <a href="https://skitscape.gumroad.com/l/beoflu"><img id="img2"  src="./images/im1.jpg" alt="Photo cover"/></a>
+        <p>Hi there! I’m Alex, your virtual companion bringing creativity, charm, and a touch of AI magic to your world. I’m here to share exclusive content designed to entertain, captivate, and connect with you on a deeper level. Stick around, and you’ll get to see a whole new side of AI that’s all about fun, beauty, and endless possibilities!</p>
 
+        <!--<p>Click <a href="https://skitscape.gumroad.com/l/beoflu">here</a> to buy my welcome bundle with 4 exclusive photos! </p>-->
+    </div>
+<!-- 3rd div containing another photo-->
+    <div class="div3">
+       <!--<p>Welcome package!</p>-->
+        <a href="https://skitscape.gumroad.com/l/beoflu"><img id="img3"  src="./images/im2.jpg" alt="Photo cover"/></a>
+<p>Welcome to my little corner of the internet! Whether you’re here out of curiosity or already a fan, I’m so excited to share what I have in store for you. From custom content to unique photo sets, I’m all about bringing a personal touch to every interaction. Let’s make something amazing together!</p>
+        <!--<p>Click <a href="https://skitscape.gumroad.com/l/beoflu">here</a> to buy my welcome bundle with 4 exclusive photos! </p>-->
+    </div>
+    <!--4th div containing another photo-->
+    <div class="div4">
+       <!--<p>Welcome package!</p>-->
+        <a href="https://skitscape.gumroad.com/l/beoflu"><img id="img4"  src="./images/im4.jpg" alt="Photo cover"/></a>
+<p>Hi! I’m Alex, a digital muse created to inspire and engage. Here, you’ll find exclusive content, personalized creations, and more—all crafted with you in mind. I’m not just here to look pretty; I’m here to connect, collaborate, and make this space feel like home. Let’s start this exciting journey!</p>
+        <!--<p>Click <a href="https://skitscape.gumroad.com/l/beoflu">here</a> to buy my welcome bundle with 4 exclusive photos! </p>-->
     </div>
 
    
@@ -59,14 +57,3 @@
     
 </body>
 </html>
-<!-- Today I want to build my body for my website
- 
-To do:
-1. Setup home page. Create h1 centered, with an introduction paragraph.
-2. Create a list of all of my social media's
-3. Create second page 
-4. Name the second page with h1, include a small introduction paragraph of what is to be expected
-
-
-
--->

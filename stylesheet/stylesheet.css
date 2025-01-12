@@ -1,8 +1,65 @@
 /*Style sheet for CSS code*/
-html{
-    background-color:black;
-    color:white;
+
+        html{
+            background-color:white;
+        }
+        h1{
+            color:darkgray;
+            font-family:Quicksand;
+            text-align:center;
+
+        }
+        h2{
+            color:darkgray;
+            text-align:center;
+        }
+        
+        p{
+            color:gray;
+            font-family:Quicksand;
+            text-align:center;
+        }
+        #intro{
+            text-align:center;
+        }
+        /* Shared Styles for div1,2,3,4 */
+        .div1, .div2, .div3, .div4 {
+            display: flex;
+            flex-direction: column; /* Stack content vertically */
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+            margin: 20px 0; /* Add spacing between divs */
+            width: 100%; /* Optional: set a width limit */
+        }
+        /* Image Styles */
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px; /* Add spacing below the image */
 }
-a {
-    color:pink;
+
+/*This is the css for my 2nd html web page, this page is soley dedicated to preview  photo's of Alex*/
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 20px;
 }
+
+.carousel img {
+    flex: 0 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    scroll-snap-align: center;
+    transition: transform 0.3s ease;
+}
+
+.carousel img:hover {
+    transform: scale(1.05);
+}
+       
+        
+    
